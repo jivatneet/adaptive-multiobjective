@@ -139,7 +139,7 @@ class OnlineMA:
         self.ma_linf = []
         self.reg_losses = []
         
-        # trailing window for adaptive eta_t: sum of E[l_MA^2] + E[l_reg^2] over last window_size
+        # trailing window for adaptive eta_t: sum of E[l_MA^2] over last window_size
         self._sq_terms = deque(maxlen=self.window_size)
         self._sq_sum = 0.0
 
