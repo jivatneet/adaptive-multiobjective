@@ -1,0 +1,22 @@
+name: adaptive-multiobjective
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - pip
+  - numpy
+  - matplotlib
+  - pandas
+  - pyarrow
+  - pyyaml
+  - requests
+  - seaborn
+  - scipy
+  - scikit-learn
+  - tqdm
+  - pip:
+      - cvxpy
+      - mosek
+      - statsmodels==0.14.2
